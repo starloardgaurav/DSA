@@ -36,3 +36,26 @@ target = 9
 
 Output:
 [1,2]
+
+### Output
+
+[1, 2]
+
+### Explanation
+
+2 + 7 = 9
+
+The required elements are at positions `1` and `2`.
+
+---
+
+# Approach - Two Pointers
+
+## Intuition
+
+The most important observation in this problem is that the array is **already sorted**.
+
+We can use two pointers:
+
+- `i` → starts from the beginning of the array.
+- `j` → starts from the end of the array.
