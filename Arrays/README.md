@@ -13,6 +13,7 @@ The goal is to understand different problem-solving patterns, improve time and s
 | 1 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | O(n) | O(1) | [View](./Two-Sum-II-167/) |
 | 2 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | Easy | Prefix/Suffix | O(n²) / O(n) | O(1) / O(n) | [View](./Smallest-Stable-Index-I-3903/) |
 | 3 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | Mathematical Observation | O(1) | O(1) | [View](./Count-Commas-in-Range-3870/) |
+| 4 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | Backtracking + HashSet | O(n³) | O(n + k) | [View](./Unique-3-Digit-Even-Numbers-3483/) |
 
 ---
 
@@ -50,6 +51,9 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 ### Kadane's Algorithm
 - [ ] Maximum Subarray
+
+### Backtracking
+- [x] Unique 3-Digit Even Numbers
 
 ---
 
