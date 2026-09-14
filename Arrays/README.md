@@ -14,7 +14,7 @@ The goal is to understand different problem-solving patterns, improve time and s
 | 2 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | Easy | Prefix/Suffix | O(n²) / O(n) | O(1) / O(n) | [View](./Smallest-Stable-Index-I-3903/) |
 | 3 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | Mathematical Observation | O(1) | O(1) | [View](./Count-Commas-in-Range-3870/) |
 | 4 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | Backtracking + HashSet | O(n³) | O(n + k) | [View](./Unique-3-Digit-Even-Numbers-3483/) |
-
+| 5 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | Easy | Interval Overlap / Geometry | O(1) | O(1) | [View](./Rectangle-Overlap-836/) |
 ---
 
 ## 🧠 Patterns Covered
@@ -27,6 +27,9 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 ### Mathematical Observation
 - [x] Count Commas in Range
+
+### Geometry / Interval Overlap
+- [x] Rectangle Overlap
 
 ### Hashing
 - [ ] Two Sum
