@@ -1,0 +1,1 @@
+| 1 | [Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | Medium | Geometry / Closest Point | O(1) | O(1) | [View](./Circle-and-Rectangle-Overlapping-1401/) |
