@@ -15,6 +15,7 @@ The goal is to understand different problem-solving patterns, improve time and s
 | 3 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | Mathematical Observation | O(1) | O(1) | [View](./Count-Commas-in-Range-3870/) |
 | 4 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | Backtracking + HashSet | O(n³) | O(n + k) | [View](./Unique-3-Digit-Even-Numbers-3483/) |
 | 5 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | Easy | Interval Overlap / Geometry | O(1) | O(1) | [View](./Rectangle-Overlap-836/) |
+
 ---
 
 ## 🧠 Patterns Covered
@@ -27,9 +28,6 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 ### Mathematical Observation
 - [x] Count Commas in Range
-
-### Character Arithmetic
-- [x] Reverse Degree of a String
 
 ### Geometry / Interval Overlap
 - [x] Rectangle Overlap
@@ -67,11 +65,11 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 | Status | Count |
 |---|---:|
-| Solved | 3 |
+| Solved | 5 |
 | In Progress | 0 |
-| Total Tracked | 3 |
+| Total Tracked | 5 |
 
-**Progress: 3 / 3 solved**
+**Progress: 5 / 5 solved**
 
 ---
 
@@ -106,7 +104,15 @@ Arrays/
 │   ├── README.md
 │   └── Solution.java
 │
-└── Count-Commas-in-Range-3870/
+├── Count-Commas-in-Range-3870/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Unique-3-Digit-Even-Numbers-3483/
+│   ├── README.md
+│   └── Solution.java
+│
+└── Rectangle-Overlap-836/
     ├── README.md
     └── Solution.java
 ```
