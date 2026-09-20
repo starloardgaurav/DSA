@@ -30,6 +30,11 @@
 **Progress: 2 / 2 solved**
 
 
+## 📁 Folder Structure
+
+Each solved problem has its own folder:
+
+```text
 Strings/
 ├── README.md
 │
@@ -40,4 +45,20 @@ Strings/
 └── Reverse-Degree-of-a-String-3498/
     ├── README.md
     └── Solution.java
-    
+```
+
+### Each Problem README Contains
+
+- Problem statement
+- Examples
+- Approach
+- Intuition
+- Algorithm
+- Dry run
+- Java solution
+- Time complexity
+- Space complexity
+- Brute-force vs optimized approach
+- Key learning
+- Interview explanation
+- Important pattern
