@@ -28,6 +28,9 @@ The goal is to understand different problem-solving patterns, improve time and s
 ### Mathematical Observation
 - [x] Count Commas in Range
 
+### Character Arithmetic
+- [x] Reverse Degree of a String
+
 ### Geometry / Interval Overlap
 - [x] Rectangle Overlap
 
