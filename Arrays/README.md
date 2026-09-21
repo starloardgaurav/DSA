@@ -15,7 +15,7 @@ The goal is to understand different problem-solving patterns, improve time and s
 | 3 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | Mathematical Observation | O(1) | O(1) | [View](./Count-Commas-in-Range-3870/) |
 | 4 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | Backtracking + HashSet | O(n³) | O(n + k) | [View](./Unique-3-Digit-Even-Numbers-3483/) |
 | 5 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | Easy | Interval Overlap / Geometry | O(1) | O(1) | [View](./Rectangle-Overlap-836/) |
-
+| 6 | [Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) | Medium | DP + Modular Arithmetic | O(n × k) | O(k) | [View](./Find-X-Value-of-Array-I-3524/) |
 ---
 
 ## 🧠 Patterns Covered
@@ -65,11 +65,11 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 | Status | Count |
 |---|---:|
-| Solved | 5 |
+| Solved | 6 |
 | In Progress | 0 |
-| Total Tracked | 5 |
+| Total Tracked | 6 |
 
-**Progress: 5 / 5 solved**
+**Progress: 6 / 6 solved**
 
 ---
 
@@ -112,9 +112,14 @@ Arrays/
 │   ├── README.md
 │   └── Solution.java
 │
+├── Find X Value of Array I-3524/
+│   ├── README.md
+│   └── Solution.java
+│
 └── Rectangle-Overlap-836/
     ├── README.md
     └── Solution.java
+
 ```
 
 ### Each Problem README Contains
