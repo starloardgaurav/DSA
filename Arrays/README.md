@@ -16,6 +16,7 @@ The goal is to understand different problem-solving patterns, improve time and s
 | 4 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | Backtracking + HashSet | O(n³) | O(n + k) | [View](./Unique-3-Digit-Even-Numbers-3483/) |
 | 5 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | Easy | Interval Overlap / Geometry | O(1) | O(1) | [View](./Rectangle-Overlap-836/) |
 | 6 | [Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) | Medium | DP + Modular Arithmetic | O(n × k) | O(k) | [View](./Find-X-Value-of-Array-I-3524/) |
+| 7 | [Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/) | Hard | Segment Tree + Modular Arithmetic | O(nk + qk log n) | O(nk) | [View](./Find-X-Value-of-Array-II-3525/) |
 ---
 
 ## 🧠 Patterns Covered
@@ -65,11 +66,11 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 | Status | Count |
 |---|---:|
-| Solved | 6 |
+| Solved | 7 |
 | In Progress | 0 |
-| Total Tracked | 6 |
+| Total Tracked | 7 |
 
-**Progress: 6 / 6 solved**
+**Progress: 7 / 7 solved**
 
 ---
 
