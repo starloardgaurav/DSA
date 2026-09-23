@@ -17,6 +17,7 @@ The goal is to understand different problem-solving patterns, improve time and s
 | 5 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | Easy | Interval Overlap / Geometry | O(1) | O(1) | [View](./Rectangle-Overlap-836/) |
 | 6 | [Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) | Medium | DP + Modular Arithmetic | O(n × k) | O(k) | [View](./Find-X-Value-of-Array-I-3524/) |
 | 7 | [Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/) | Hard | Segment Tree + Modular Arithmetic | O(nk + qk log n) | O(nk) | [View](./Find-X-Value-of-Array-II-3525/) |
+| 8 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | Sliding Window / Prefix Sum | O(n) | O(1) | [View](./Minimum-Operations-to-Reduce-X-to-Zero-1658/) |
 ---
 
 ## 🧠 Patterns Covered
@@ -38,6 +39,7 @@ The goal is to understand different problem-solving patterns, improve time and s
 - [ ] Contains Duplicate
 
 ### Sliding Window
+- [x] Minimum Operations to Reduce X to Zero
 - [ ] Maximum Average Subarray I
 - [ ] Longest Subarray With Sum K
 
@@ -66,11 +68,11 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 | Status | Count |
 |---|---:|
-| Solved | 7 |
+| Solved | 8 |
 | In Progress | 0 |
-| Total Tracked | 7 |
+| Total Tracked | 8 |
 
-**Progress: 7 / 7 solved**
+**Progress: 8 / 8 solved**
 
 ---
 
