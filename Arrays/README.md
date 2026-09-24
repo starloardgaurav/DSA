@@ -18,6 +18,8 @@ The goal is to understand different problem-solving patterns, improve time and s
 | 6 | [Find X Value of Array I](https://leetcode.com/problems/find-x-value-of-array-i/) | Medium | DP + Modular Arithmetic | O(n × k) | O(k) | [View](./Find-X-Value-of-Array-I-3524/) |
 | 7 | [Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/) | Hard | Segment Tree + Modular Arithmetic | O(nk + qk log n) | O(nk) | [View](./Find-X-Value-of-Array-II-3525/) |
 | 8 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | Sliding Window / Prefix Sum | O(n) | O(1) | [View](./Minimum-Operations-to-Reduce-X-to-Zero-1658/) |
+| 9 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | Easy | Digit Manipulation | O(n × d) | O(1) | [View](./Smallest-Index-With-Digit-Sum-Equal-to-Index/) |
+
 ---
 
 ## 🧠 Patterns Covered
@@ -34,6 +36,9 @@ The goal is to understand different problem-solving patterns, improve time and s
 ### Geometry / Interval Overlap
 - [x] Rectangle Overlap
 
+### Digit Manipulation
+- [x] Smallest Index With Digit Sum Equal to Index
+
 ### Hashing
 - [ ] Two Sum
 - [ ] Contains Duplicate
@@ -42,6 +47,12 @@ The goal is to understand different problem-solving patterns, improve time and s
 - [x] Minimum Operations to Reduce X to Zero
 - [ ] Maximum Average Subarray I
 - [ ] Longest Subarray With Sum K
+
+### Dynamic Programming / Modular Arithmetic
+- [x] Find X Value of Array I
+
+### Segment Tree
+- [x] Find X Value of Array II
 
 ### Binary Search
 - [ ] Binary Search
@@ -68,11 +79,11 @@ The goal is to understand different problem-solving patterns, improve time and s
 
 | Status | Count |
 |---|---:|
-| Solved | 8 |
+| Solved | 9 |
 | In Progress | 0 |
-| Total Tracked | 8 |
+| Total Tracked | 9 |
 
-**Progress: 8 / 8 solved**
+**Progress: 9 / 9 solved**
 
 ---
 
@@ -115,17 +126,30 @@ Arrays/
 │   ├── README.md
 │   └── Solution.java
 │
-├── Find X Value of Array I-3524/
+├── Rectangle-Overlap-836/
 │   ├── README.md
 │   └── Solution.java
 │
-└── Rectangle-Overlap-836/
+├── Find-X-Value-of-Array-I-3524/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Find-X-Value-of-Array-II-3525/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Minimum-Operations-to-Reduce-X-to-Zero-1658/
+│   ├── README.md
+│   └── Solution.java
+│
+└── Smallest-Index-With-Digit-Sum-Equal-to-Index/
     ├── README.md
     └── Solution.java
-
 ```
 
-### Each Problem README Contains
+---
+
+## 📝 Each Problem README Contains
 
 - Problem statement
 - Examples
