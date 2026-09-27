@@ -13,6 +13,8 @@ The goal is to understand different string problem-solving patterns, improve tim
 | 1 | [Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/) | Hard | Greedy + Two Pointers | O(n³) | O(1) | [View](./Maximum-Number-of-Non-overlapping-Palindrome-Substrings-2472/) |
 | 2 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | Character Arithmetic / Math | O(n) | O(1) | [View](./Reverse-Degree-of-a-String-3498/) |
 | 3 | [Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/) | Hard | Recursive Descent Parsing + Set | Depends on output size | Depends on output size | [View](./Brace-Expansion-II-1096/) |
+| 4 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | Medium | HashMap + String Parsing | O(n + k) | O(k + m) | [View](./Evaluate-the-Bracket-Pairs-of-a-String-1807/) |
+| 5 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack + String Manipulation | O(n²) | O(n) | [View](./Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/) |
 
 ---
 
