@@ -15,6 +15,7 @@ The goal is to understand different string problem-solving patterns, improve tim
 | 3 | [Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/) | Hard | Recursive Descent Parsing + Set | Depends on output size | Depends on output size | [View](./Brace-Expansion-II-1096/) |
 | 4 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | Medium | HashMap + String Parsing | O(n + k) | O(k + m) | [View](./Evaluate-the-Bracket-Pairs-of-a-String-1807/) |
 | 5 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack + String Manipulation | O(n²) | O(n) | [View](./Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/) |
+| 6 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | Counter / Parentheses | O(n) | O(1) | [View](./Maximum-Nesting-Depth-of-the-Parentheses-1614/) |
 
 ---
 
@@ -38,17 +39,20 @@ The goal is to understand different string problem-solving patterns, improve tim
 ### Set / Cartesian Product
 - [x] Brace Expansion II
 
+### Counter / Parentheses
+- [x] Maximum Nesting Depth of the Parentheses
+
 ---
 
 ## 📊 Progress
 
 | Status | Count |
 |---|---:|
-| Solved | 3 |
+| Solved | 6 |
 | In Progress | 0 |
-| Total Tracked | 3 |
+| Total Tracked | 6 |
 
-**Progress: 3 / 3 solved**
+**Progress: 6 / 6 solved**
 
 ---
 
@@ -60,6 +64,18 @@ Each solved problem has its own folder:
 Strings/
 ├── README.md
 │
+├── Brace-Expansion-II-1096/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Evaluate-the-Bracket-Pairs-of-a-String-1807/
+│   ├── README.md
+│   └── Solution.java
+|
+├── Maximum-Nesting-Depth-of-the-Parentheses-1614/
+|   ├── README.md
+|   └── Solution.java
+│
 ├── Maximum-Number-of-Non-overlapping-Palindrome-Substrings-2472/
 │   ├── README.md
 │   └── Solution.java
@@ -68,7 +84,7 @@ Strings/
 │   ├── README.md
 │   └── Solution.java
 │
-└── Brace-Expansion-II-1096/
+└── Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/
     ├── README.md
     └── Solution.java
 ```
