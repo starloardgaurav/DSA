@@ -1,6 +1,6 @@
 # 🚀 DSA Placement Preparation
 
-A structured collection of my **Data Structures and Algorithms** solutions for placement and interview preparation.
+A structured collection of my **Data Structures and Algorithms** solutions for placement and technical interview preparation.
 
 This repository focuses on understanding **problem-solving patterns**, writing optimized solutions, and maintaining proper revision notes rather than simply collecting solved questions.
 
@@ -32,8 +32,8 @@ The goal is to make this repository useful not only for solving problems but als
 
 | Topic | Problems Solved | Status |
 |---|---:|---|
-| [Arrays](./Arrays/) | 5 | 🟢 Active |
-| [Strings](./Strings/) | 2 | 🟢 Active |
+| [Arrays](./Arrays/) | 9 | 🟢 Active |
+| [Strings](./Strings/) | 6 | 🟢 Active |
 | [Linked List](./Linked-List/) | 0 | 🔵 Upcoming |
 | [Math](./Math/) | 1 | 🟢 Active |
 | Trees | 0 | 🔵 Upcoming |
@@ -43,8 +43,7 @@ The goal is to make this repository useful not only for solving problems but als
 | Hashing | 0 | 🔵 Upcoming |
 | Heap / Priority Queue | 0 | 🔵 Upcoming |
 | Graphs | 0 | 🔵 Upcoming |
-| Dynamic Programming | 0 | 🔵 Upcoming |
-| Backtracking | 1 | 🟢 Active |
+| [Dynamic Programming](./Dynamic-Programming/) | 1 | 🟢 Active |
 
 > Some problems may use a pattern from another category.  
 > The problem is organized primarily according to the data structure or topic it belongs to.
@@ -55,17 +54,18 @@ The goal is to make this repository useful not only for solving problems but als
 
 | Metric | Count |
 |---|---:|
-| Problems Solved | **8** |
-| Topics Started | **3** |
+| Problems Solved | **17** |
+| Topics Started | **4** |
 | Languages | **Java** |
 | Repository Status | 🟢 Active |
 
 ### Current Progress
 
 ```text
-Arrays        ████████████████████  5
-Strings       ████████              2
-Math          ████                  1
+Arrays               ████████████████████  9
+Strings              █████████████        6
+Math                 ██                   1
+Dynamic Programming  ██                   1
 ```
 
 ---
@@ -73,6 +73,7 @@ Math          ████                  1
 ## 🧠 Patterns I Am Practicing
 
 ### Array Patterns
+
 - Two Pointers
 - Prefix / Suffix
 - Prefix Sum
@@ -81,25 +82,49 @@ Math          ████                  1
 - Sorting
 - Kadane's Algorithm
 - Backtracking
+- HashSet
 - Interval Overlap
+- Geometry
 - Mathematical Observation
+- Digit Manipulation
+- Dynamic Programming
+- Modular Arithmetic
+- Segment Tree
 
 ### String Patterns
+
 - Character Arithmetic
 - Two Pointers
 - Greedy
 - Palindrome Checking
+- Recursive Descent Parsing
+- Cartesian Product
+- HashMap
+- String Parsing
+- Stack
+- Parentheses / Counter
 
-### Other Patterns
-- Geometry
-- Hashing
+### Dynamic Programming Patterns
+
+- DFS + Memoization
+- Matrix DP
+- State Tracking
+- Balance DP
+- Pruning
+
+### Mathematical / Geometry Patterns
+
+- Coordinate Geometry
+- Closest Point
+- Interval Overlap
 - Mathematical Mapping
+- Modular Arithmetic
 
 ---
 
-## ⭐ Solved Problems
+# ⭐ Solved Problems
 
-### Arrays
+## Arrays
 
 | # | Problem | Difficulty | Pattern |
 |---|---|---|---|
@@ -108,15 +133,27 @@ Math          ████                  1
 | 3 | [Count Commas in Range](./Arrays/Count-Commas-in-Range-3870/) | Easy | Mathematical Observation |
 | 4 | [Unique 3-Digit Even Numbers](./Arrays/Unique-3-Digit-Even-Numbers-3483/) | Easy | Backtracking + HashSet |
 | 5 | [Rectangle Overlap](./Arrays/Rectangle-Overlap-836/) | Easy | Geometry / Interval Overlap |
+| 6 | [Find X Value of Array I](./Arrays/Find-X-Value-of-Array-I-3524/) | Medium | DP + Modular Arithmetic |
+| 7 | [Find X Value of Array II](./Arrays/Find-X-Value-of-Array-II-3525/) | Hard | Segment Tree + Modular Arithmetic |
+| 8 | [Minimum Operations to Reduce X to Zero](./Arrays/Minimum-Operations-to-Reduce-X-to-Zero-1658/) | Medium | Sliding Window / Prefix Sum |
+| 9 | [Smallest Index With Digit Sum Equal to Index](./Arrays/Smallest-Index-With-Digit-Sum-Equal-to-Index/) | Easy | Digit Manipulation |
 
-### Strings
+---
+
+## Strings
 
 | # | Problem | Difficulty | Pattern |
 |---|---|---|---|
 | 1 | [Maximum Number of Non-overlapping Palindrome Substrings](./Strings/Maximum-Number-of-Non-overlapping-Palindrome-Substrings-2472/) | Hard | Greedy + Two Pointers |
 | 2 | [Reverse Degree of a String](./Strings/Reverse-Degree-of-a-String-3498/) | Easy | Character Arithmetic / Math |
+| 3 | [Brace Expansion II](./Strings/Brace-Expansion-II-1096/) | Hard | Recursive Descent Parsing + Set |
+| 4 | [Evaluate the Bracket Pairs of a String](./Strings/Evaluate-the-Bracket-Pairs-of-a-String-1807/) | Medium | HashMap + String Parsing |
+| 5 | [Reverse Substrings Between Each Pair of Parentheses](./Strings/Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/) | Medium | Stack + String Manipulation |
+| 6 | [Maximum Nesting Depth of the Parentheses](./Strings/Maximum-Nesting-Depth-of-the-Parentheses-1614/) | Easy | Counter / Parentheses |
 
-### Math
+---
+
+## Math
 
 | # | Problem | Difficulty | Pattern |
 |---|---|---|---|
@@ -124,7 +161,15 @@ Math          ████                  1
 
 ---
 
-## 📁 Repository Structure
+## Dynamic Programming
+
+| # | Problem | Difficulty | Pattern |
+|---|---|---|---|
+| 1 | [Check if There Is a Valid Parentheses String Path](./Dynamic-Programming/Check-if-There-Is-a-Valid-Parentheses-String-Path-2267/) | Hard | DFS + Memoization + Matrix DP |
+
+---
+
+# 📁 Repository Structure
 
 ```text
 DSA/
@@ -137,16 +182,28 @@ DSA/
 │   ├── Smallest-Stable-Index-I-3903/
 │   ├── Count-Commas-in-Range-3870/
 │   ├── Unique-3-Digit-Even-Numbers-3483/
-│   └── Rectangle-Overlap-836/
+│   ├── Rectangle-Overlap-836/
+│   ├── Find-X-Value-of-Array-I-3524/
+│   ├── Find-X-Value-of-Array-II-3525/
+│   ├── Minimum-Operations-to-Reduce-X-to-Zero-1658/
+│   └── Smallest-Index-With-Digit-Sum-Equal-to-Index/
 │
 ├── Strings/
 │   ├── README.md
 │   ├── Maximum-Number-of-Non-overlapping-Palindrome-Substrings-2472/
-│   └── Reverse-Degree-of-a-String-3498/
+│   ├── Reverse-Degree-of-a-String-3498/
+│   ├── Brace-Expansion-II-1096/
+│   ├── Evaluate-the-Bracket-Pairs-of-a-String-1807/
+│   ├── Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/
+│   └── Maximum-Nesting-Depth-of-the-Parentheses-1614/
 │
 ├── Math/
 │   ├── README.md
 │   └── Circle-and-Rectangle-Overlapping-1401/
+│
+├── Dynamic-Programming/
+│   ├── README.md
+│   └── Check-if-There-Is-a-Valid-Parentheses-String-Path-2267/
 │
 └── Linked-List/
     └── README.md
@@ -154,7 +211,7 @@ DSA/
 
 ---
 
-## 📝 Problem Documentation
+# 📝 Problem Documentation
 
 Every problem has its own directory containing:
 
@@ -180,6 +237,7 @@ Contains:
 - Optimized approach
 - Key learning
 - Interview explanation
+- Important pattern
 
 ### Solution.java
 
@@ -187,7 +245,7 @@ Contains the final optimized Java solution.
 
 ---
 
-## 🎯 Preparation Strategy
+# 🎯 Preparation Strategy
 
 For every new problem, I follow this workflow:
 
@@ -215,7 +273,7 @@ Revise Later
 
 ---
 
-## 📈 Goals
+# 📈 Goals
 
 ### Short-Term
 
@@ -238,7 +296,7 @@ Revise Later
 
 ---
 
-## 🔑 Important Principle
+# 🔑 Important Principle
 
 > **Don't memorize the solution. Understand the pattern.**
 
@@ -246,7 +304,7 @@ The objective of this repository is to recognize recurring problem-solving techn
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - **Language:** Java
 - **Platform:** LeetCode
@@ -255,31 +313,35 @@ The objective of this repository is to recognize recurring problem-solving techn
 
 ---
 
-## 📌 Current Focus
+# 📌 Current Focus
 
 Currently focusing on:
 
 - Arrays
 - Strings
-- Mathematical problems
+- Dynamic Programming
+- Mathematical Problems
 - Two Pointers
-- Prefix / Suffix techniques
+- Prefix / Suffix Techniques
+- Sliding Window
 - Greedy
 - Backtracking
+- Stack
 - Geometry
+- Modular Arithmetic
 
 More topics will be added progressively.
 
 ---
 
-## 🔗 Useful Links
+# 🔗 Useful Links
 
 - [My GitHub Profile](https://github.com/starloardgaurav)
 - [LeetCode](https://leetcode.com/)
 
 ---
 
-## 🚀 Repository Status
+# 🚀 Repository Status
 
 **Active Development 🟢**
 
