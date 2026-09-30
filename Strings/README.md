@@ -16,6 +16,7 @@ The goal is to understand different string problem-solving patterns, improve tim
 | 4 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | Medium | HashMap + String Parsing | O(n + k) | O(k + m) | [View](./Evaluate-the-Bracket-Pairs-of-a-String-1807/) |
 | 5 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack + String Manipulation | O(n²) | O(n) | [View](./Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/) |
 | 6 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | Counter / Parentheses | O(n) | O(1) | [View](./Maximum-Nesting-Depth-of-the-Parentheses-1614/) |
+| 7 | [Maximum Nesting Depth of Two Valid Parentheses Strings](./Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/) | Medium | Depth / Greedy | O(n) | O(1) | [View](./Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/) |
 
 ---
 
@@ -48,11 +49,11 @@ The goal is to understand different string problem-solving patterns, improve tim
 
 | Status | Count |
 |---|---:|
-| Solved | 6 |
+| Solved | 7 |
 | In Progress | 0 |
-| Total Tracked | 6 |
+| Total Tracked | 7 |
 
-**Progress: 6 / 6 solved**
+**Progress: 7 / 7 solved**
 
 ---
 
@@ -71,6 +72,10 @@ Strings/
 ├── Evaluate-the-Bracket-Pairs-of-a-String-1807/
 │   ├── README.md
 │   └── Solution.java
+|
+├── Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/
+|   ├── README.md
+|   └── Solution.java
 |
 ├── Maximum-Nesting-Depth-of-the-Parentheses-1614/
 |   ├── README.md
