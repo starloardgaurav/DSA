@@ -16,7 +16,11 @@ The goal is to understand different string problem-solving patterns, improve tim
 | 4 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | Medium | HashMap + String Parsing | O(n + k) | O(k + m) | [View](./Evaluate-the-Bracket-Pairs-of-a-String-1807/) |
 | 5 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | Stack + String Manipulation | O(n²) | O(n) | [View](./Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/) |
 | 6 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | Counter / Parentheses | O(n) | O(1) | [View](./Maximum-Nesting-Depth-of-the-Parentheses-1614/) |
-| 7 | [Maximum Nesting Depth of Two Valid Parentheses Strings](./Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/) | Medium | Depth / Greedy | O(n) | O(1) | [View](./Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/) |
+| 7 | [Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | Depth / Greedy | O(n) | O(1) | [View](./Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/) |
+| 8 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stack / Bracket Matching | O(n) | O(n) | [View](./Valid-Parentheses-20/) |
+| 9 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | Backtracking / Recursion | O(C(n) × n) | O(n) | [View](./Generate-Parentheses-22/) |
+| 10 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | Stack / Parentheses Matching | O(n) | O(n) | [View](./Longest-Valid-Parentheses-32/) |
+| 11 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | Greedy / Range Tracking | O(n) | O(1) | [View](./Valid-Parenthesis-String-678/) |
 
 ---
 
@@ -24,6 +28,8 @@ The goal is to understand different string problem-solving patterns, improve tim
 
 ### Greedy
 - [x] Maximum Number of Non-overlapping Palindrome Substrings
+- [x] Maximum Nesting Depth of Two Valid Parentheses Strings
+- [x] Valid Parenthesis String
 
 ### Two Pointers
 - [x] Maximum Number of Non-overlapping Palindrome Substrings
@@ -40,8 +46,34 @@ The goal is to understand different string problem-solving patterns, improve tim
 ### Set / Cartesian Product
 - [x] Brace Expansion II
 
+### HashMap / String Parsing
+- [x] Evaluate the Bracket Pairs of a String
+
+### Stack
+- [x] Reverse Substrings Between Each Pair of Parentheses
+- [x] Valid Parentheses
+- [x] Longest Valid Parentheses
+
 ### Counter / Parentheses
 - [x] Maximum Nesting Depth of the Parentheses
+
+### Depth / Balance Tracking
+- [x] Maximum Nesting Depth of Two Valid Parentheses Strings
+
+### Backtracking
+- [x] Generate Parentheses
+
+### Recursion
+- [x] Generate Parentheses
+
+### Bracket Matching
+- [x] Valid Parentheses
+
+### Parentheses Matching
+- [x] Longest Valid Parentheses
+
+### Greedy Range Tracking
+- [x] Valid Parenthesis String
 
 ---
 
@@ -49,11 +81,11 @@ The goal is to understand different string problem-solving patterns, improve tim
 
 | Status | Count |
 |---|---:|
-| Solved | 7 |
+| Solved | 11 |
 | In Progress | 0 |
-| Total Tracked | 7 |
+| Total Tracked | 11 |
 
-**Progress: 7 / 7 solved**
+**Progress: 11 / 11 solved**
 
 ---
 
@@ -72,14 +104,22 @@ Strings/
 ├── Evaluate-the-Bracket-Pairs-of-a-String-1807/
 │   ├── README.md
 │   └── Solution.java
-|
+│
+├── Generate-Parentheses-22/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Longest-Valid-Parentheses-32/
+│   ├── README.md
+│   └── Solution.java
+│
 ├── Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/
-|   ├── README.md
-|   └── Solution.java
-|
+│   ├── README.md
+│   └── Solution.java
+│
 ├── Maximum-Nesting-Depth-of-the-Parentheses-1614/
-|   ├── README.md
-|   └── Solution.java
+│   ├── README.md
+│   └── Solution.java
 │
 ├── Maximum-Number-of-Non-overlapping-Palindrome-Substrings-2472/
 │   ├── README.md
@@ -89,12 +129,22 @@ Strings/
 │   ├── README.md
 │   └── Solution.java
 │
-└── Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/
+├── Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Valid-Parentheses-20/
+│   ├── README.md
+│   └── Solution.java
+│
+└── Valid-Parenthesis-String-678/
     ├── README.md
     └── Solution.java
 ```
 
-### Each Problem README Contains
+---
+
+## 📝 Each Problem README Contains
 
 - Problem statement
 - Examples
