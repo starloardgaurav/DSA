@@ -33,7 +33,7 @@ The goal is to make this repository useful not only for solving problems but als
 | Topic | Problems Solved | Status |
 |---|---:|---|
 | [Arrays](./Arrays/) | 9 | 🟢 Active |
-| [Strings](./Strings/) | 6 | 🟢 Active |
+| [Strings](./Strings/) | 11 | 🟢 Active |
 | [Linked List](./Linked-List/) | 0 | 🔵 Upcoming |
 | [Math](./Math/) | 1 | 🟢 Active |
 | Trees | 0 | 🔵 Upcoming |
@@ -54,7 +54,7 @@ The goal is to make this repository useful not only for solving problems but als
 
 | Metric | Count |
 |---|---:|
-| Problems Solved | **17** |
+| Problems Solved | **22** |
 | Topics Started | **4** |
 | Languages | **Java** |
 | Repository Status | 🟢 Active |
@@ -63,9 +63,9 @@ The goal is to make this repository useful not only for solving problems but als
 
 ```text
 Arrays               ████████████████████  9
-Strings              █████████████        6
-Math                 ██                   1
-Dynamic Programming  ██                   1
+Strings              ███████████████████████  11
+Math                 ██                    1
+Dynamic Programming  ██                    1
 ```
 
 ---
@@ -103,6 +103,12 @@ Dynamic Programming  ██                   1
 - String Parsing
 - Stack
 - Parentheses / Counter
+- Backtracking
+- Recursion
+- Bracket Matching
+- Parentheses Matching
+- Greedy Range Tracking
+- Balance Tracking
 
 ### Dynamic Programming Patterns
 
@@ -150,6 +156,11 @@ Dynamic Programming  ██                   1
 | 4 | [Evaluate the Bracket Pairs of a String](./Strings/Evaluate-the-Bracket-Pairs-of-a-String-1807/) | Medium | HashMap + String Parsing |
 | 5 | [Reverse Substrings Between Each Pair of Parentheses](./Strings/Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/) | Medium | Stack + String Manipulation |
 | 6 | [Maximum Nesting Depth of the Parentheses](./Strings/Maximum-Nesting-Depth-of-the-Parentheses-1614/) | Easy | Counter / Parentheses |
+| 7 | [Maximum Nesting Depth of Two Valid Parentheses Strings](./Strings/Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/) | Medium | Depth / Greedy |
+| 8 | [Valid Parentheses](./Strings/Valid-Parentheses-20/) | Easy | Stack / Bracket Matching |
+| 9 | [Generate Parentheses](./Strings/Generate-Parentheses-22/) | Medium | Backtracking / Recursion |
+| 10 | [Longest Valid Parentheses](./Strings/Longest-Valid-Parentheses-32/) | Hard | Stack / Parentheses Matching |
+| 11 | [Valid Parenthesis String](./Strings/Valid-Parenthesis-String-678/) | Medium | Greedy / Range Tracking |
 
 ---
 
@@ -195,7 +206,12 @@ DSA/
 │   ├── Brace-Expansion-II-1096/
 │   ├── Evaluate-the-Bracket-Pairs-of-a-String-1807/
 │   ├── Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/
-│   └── Maximum-Nesting-Depth-of-the-Parentheses-1614/
+│   ├── Maximum-Nesting-Depth-of-the-Parentheses-1614/
+│   ├── Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings-1111/
+│   ├── Valid-Parentheses-20/
+│   ├── Generate-Parentheses-22/
+│   ├── Longest-Valid-Parentheses-32/
+│   └── Valid-Parenthesis-String-678/
 │
 ├── Math/
 │   ├── README.md
@@ -251,23 +267,23 @@ For every new problem, I follow this workflow:
 
 ```text
 Understand Problem
-        ↓
+       ↓
 Identify Pattern
-        ↓
+       ↓
 Think of Brute Force
-        ↓
+       ↓
 Analyze Complexity
-        ↓
+       ↓
 Optimize
-        ↓
+       ↓
 Dry Run
-        ↓
+       ↓
 Write Clean Code
-        ↓
+       ↓
 Document Solution
-        ↓
+       ↓
 Add to GitHub
-        ↓
+       ↓
 Revise Later
 ```
 
@@ -329,6 +345,8 @@ Currently focusing on:
 - Stack
 - Geometry
 - Modular Arithmetic
+- Recursion
+- Parentheses / Balance Problems
 
 More topics will be added progressively.
 
