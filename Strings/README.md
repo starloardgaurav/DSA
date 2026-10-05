@@ -21,6 +21,7 @@ The goal is to understand different string problem-solving patterns, improve tim
 | 9 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | Backtracking / Recursion | O(C(n) × n) | O(n) | [View](./Generate-Parentheses-22/) |
 | 10 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | Stack / Parentheses Matching | O(n) | O(n) | [View](./Longest-Valid-Parentheses-32/) |
 | 11 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | Greedy / Range Tracking | O(n) | O(1) | [View](./Valid-Parenthesis-String-678/) |
+| 12 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | Depth Tracking + Math | O(n) | O(1) | [View](./Score-of-Parentheses-856/) |
 
 ---
 
@@ -39,6 +40,7 @@ The goal is to understand different string problem-solving patterns, improve tim
 
 ### Math
 - [x] Reverse Degree of a String
+- [x] Score of Parentheses
 
 ### Recursive Descent Parsing
 - [x] Brace Expansion II
@@ -59,6 +61,7 @@ The goal is to understand different string problem-solving patterns, improve tim
 
 ### Depth / Balance Tracking
 - [x] Maximum Nesting Depth of Two Valid Parentheses Strings
+- [x] Score of Parentheses
 
 ### Backtracking
 - [x] Generate Parentheses
@@ -75,17 +78,20 @@ The goal is to understand different string problem-solving patterns, improve tim
 ### Greedy Range Tracking
 - [x] Valid Parenthesis String
 
+### Depth Tracking
+- [x] Score of Parentheses
+
 ---
 
 ## 📊 Progress
 
 | Status | Count |
 |---|---:|
-| Solved | 11 |
+| Solved | 12 |
 | In Progress | 0 |
-| Total Tracked | 11 |
+| Total Tracked | 12 |
 
-**Progress: 11 / 11 solved**
+**Progress: 12 / 12 solved**
 
 ---
 
@@ -130,6 +136,10 @@ Strings/
 │   └── Solution.java
 │
 ├── Reverse-Substrings-Between-Each-Pair-of-Parentheses-1190/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Score-of-Parentheses-856/
 │   ├── README.md
 │   └── Solution.java
 │
