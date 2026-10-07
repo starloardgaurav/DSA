@@ -33,7 +33,7 @@ The goal is to make this repository useful not only for solving problems but als
 | Topic | Problems Solved | Status |
 |---|---:|---|
 | [Arrays](./Arrays/) | 9 | 🟢 Active |
-| [Strings](./Strings/) | 11 | 🟢 Active |
+| [Strings](./Strings/) | 14 | 🟢 Active |
 | [Linked List](./Linked-List/) | 0 | 🔵 Upcoming |
 | [Math](./Math/) | 1 | 🟢 Active |
 | Trees | 0 | 🔵 Upcoming |
@@ -54,7 +54,7 @@ The goal is to make this repository useful not only for solving problems but als
 
 | Metric | Count |
 |---|---:|
-| Problems Solved | **22** |
+| Problems Solved | **25** |
 | Topics Started | **4** |
 | Languages | **Java** |
 | Repository Status | 🟢 Active |
@@ -63,7 +63,7 @@ The goal is to make this repository useful not only for solving problems but als
 
 ```text
 Arrays               ████████████████████  9
-Strings              ███████████████████████  11
+Strings              ██████████████████████████████  14
 Math                 ██                    1
 Dynamic Programming  ██                    1
 ```
@@ -100,6 +100,7 @@ Dynamic Programming  ██                    1
 - Recursive Descent Parsing
 - Cartesian Product
 - HashMap
+- HashSet
 - String Parsing
 - Stack
 - Parentheses / Counter
@@ -109,6 +110,8 @@ Dynamic Programming  ██                    1
 - Parentheses Matching
 - Greedy Range Tracking
 - Balance Tracking
+- Depth Tracking
+- Pruning
 
 ### Dynamic Programming Patterns
 
@@ -161,6 +164,9 @@ Dynamic Programming  ██                    1
 | 9 | [Generate Parentheses](./Strings/Generate-Parentheses-22/) | Medium | Backtracking / Recursion |
 | 10 | [Longest Valid Parentheses](./Strings/Longest-Valid-Parentheses-32/) | Hard | Stack / Parentheses Matching |
 | 11 | [Valid Parenthesis String](./Strings/Valid-Parenthesis-String-678/) | Medium | Greedy / Range Tracking |
+| 12 | [Score of Parentheses](./Strings/Score-of-Parentheses-856/) | Medium | Depth Tracking + Math |
+| 13 | [Minimum Add to Make Parentheses Valid](./Strings/Minimum-Add-to-Make-Parentheses-Valid-921/) | Medium | Greedy / Balance Tracking |
+| 14 | [Remove Invalid Parentheses](./Strings/Remove-Invalid-Parentheses-301/) | Hard | Backtracking + Pruning + HashSet |
 
 ---
 
@@ -211,7 +217,10 @@ DSA/
 │   ├── Valid-Parentheses-20/
 │   ├── Generate-Parentheses-22/
 │   ├── Longest-Valid-Parentheses-32/
-│   └── Valid-Parenthesis-String-678/
+│   ├── Valid-Parenthesis-String-678/
+│   ├── Score-of-Parentheses-856/
+│   ├── Minimum-Add-to-Make-Parentheses-Valid-921/
+│   └── Remove-Invalid-Parentheses-301/
 │
 ├── Math/
 │   ├── README.md
@@ -267,23 +276,23 @@ For every new problem, I follow this workflow:
 
 ```text
 Understand Problem
-       ↓
+      ↓
 Identify Pattern
-       ↓
+      ↓
 Think of Brute Force
-       ↓
+      ↓
 Analyze Complexity
-       ↓
+      ↓
 Optimize
-       ↓
+      ↓
 Dry Run
-       ↓
+      ↓
 Write Clean Code
-       ↓
+      ↓
 Document Solution
-       ↓
+      ↓
 Add to GitHub
-       ↓
+      ↓
 Revise Later
 ```
 
@@ -293,7 +302,7 @@ Revise Later
 
 ### Short-Term
 
-- [ ] 25 Problems
+- [x] 25 Problems
 - [ ] 50 Problems
 - [ ] 100 Problems
 
