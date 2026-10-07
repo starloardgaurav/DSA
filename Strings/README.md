@@ -22,6 +22,8 @@ The goal is to understand different string problem-solving patterns, improve tim
 | 10 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | Stack / Parentheses Matching | O(n) | O(n) | [View](./Longest-Valid-Parentheses-32/) |
 | 11 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | Greedy / Range Tracking | O(n) | O(1) | [View](./Valid-Parenthesis-String-678/) |
 | 12 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | Depth Tracking + Math | O(n) | O(1) | [View](./Score-of-Parentheses-856/) |
+| 13 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | Greedy / Balance Tracking | O(n) | O(1) | [View](./Minimum-Add-to-Make-Parentheses-Valid-921/) |
+| 14 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | Backtracking + Pruning + HashSet | O(2^n × n) | O(2^n × n) | [View](./Remove-Invalid-Parentheses-301/) |
 
 ---
 
@@ -31,6 +33,7 @@ The goal is to understand different string problem-solving patterns, improve tim
 - [x] Maximum Number of Non-overlapping Palindrome Substrings
 - [x] Maximum Nesting Depth of Two Valid Parentheses Strings
 - [x] Valid Parenthesis String
+- [x] Minimum Add to Make Parentheses Valid
 
 ### Two Pointers
 - [x] Maximum Number of Non-overlapping Palindrome Substrings
@@ -51,6 +54,9 @@ The goal is to understand different string problem-solving patterns, improve tim
 ### HashMap / String Parsing
 - [x] Evaluate the Bracket Pairs of a String
 
+### HashSet / Duplicate Elimination
+- [x] Remove Invalid Parentheses
+
 ### Stack
 - [x] Reverse Substrings Between Each Pair of Parentheses
 - [x] Valid Parentheses
@@ -62,24 +68,28 @@ The goal is to understand different string problem-solving patterns, improve tim
 ### Depth / Balance Tracking
 - [x] Maximum Nesting Depth of Two Valid Parentheses Strings
 - [x] Score of Parentheses
+- [x] Minimum Add to Make Parentheses Valid
 
 ### Backtracking
 - [x] Generate Parentheses
+- [x] Remove Invalid Parentheses
 
 ### Recursion
 - [x] Generate Parentheses
+- [x] Remove Invalid Parentheses
 
 ### Bracket Matching
 - [x] Valid Parentheses
 
 ### Parentheses Matching
 - [x] Longest Valid Parentheses
+- [x] Minimum Add to Make Parentheses Valid
 
 ### Greedy Range Tracking
 - [x] Valid Parenthesis String
 
-### Depth Tracking
-- [x] Score of Parentheses
+### Pruning
+- [x] Remove Invalid Parentheses
 
 ---
 
@@ -87,11 +97,11 @@ The goal is to understand different string problem-solving patterns, improve tim
 
 | Status | Count |
 |---|---:|
-| Solved | 12 |
+| Solved | 14 |
 | In Progress | 0 |
-| Total Tracked | 12 |
+| Total Tracked | 14 |
 
-**Progress: 12 / 12 solved**
+**Progress: 14 / 14 solved**
 
 ---
 
@@ -128,6 +138,14 @@ Strings/
 │   └── Solution.java
 │
 ├── Maximum-Number-of-Non-overlapping-Palindrome-Substrings-2472/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Minimum-Add-to-Make-Parentheses-Valid-921/
+│   ├── README.md
+│   └── Solution.java
+│
+├── Remove-Invalid-Parentheses-301/
 │   ├── README.md
 │   └── Solution.java
 │
