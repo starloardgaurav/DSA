@@ -24,6 +24,7 @@ The goal is to understand different string problem-solving patterns, improve tim
 | 12 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | Medium | Depth Tracking + Math | O(n) | O(1) | [View](./Score-of-Parentheses-856/) |
 | 13 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | Greedy / Balance Tracking | O(n) | O(1) | [View](./Minimum-Add-to-Make-Parentheses-Valid-921/) |
 | 14 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | Backtracking + Pruning + HashSet | O(2^n × n) | O(2^n × n) | [View](./Remove-Invalid-Parentheses-301/) |
+| 15 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | Depth / Balance Tracking | O(n) | O(n) | [View](./Remove-Outermost-Parentheses-1021/) |
 
 ---
 
